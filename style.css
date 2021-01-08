@@ -15,7 +15,8 @@ body{
 
 #section {
   padding-top: 8em;
-  
+ 
+ 
 }
 .section2{
   padding-top: 8em;
@@ -110,7 +111,7 @@ div h6{
 
 div .card{
   border: .1em solid #999999;
-  margin: 1em;
+  margin: 0.8em;
 }
 
 
@@ -144,11 +145,16 @@ div a:hover{
   color: #d9d9d9;
 }
 
-#views{
-  width: 80%;
-  height: auto;
-}
-
 #top{
   color: #ffffff;
+}
+
+#bu{
+  background: transparent;
+  outline: none;
+  border: 0;
+ visibility: none;
+}
+.btn btn-primary{
+  color: #999999;
 }
