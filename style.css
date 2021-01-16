@@ -182,21 +182,25 @@ div h3 {
   text-decoration: none;
   width: 7em;
   height: 2.2em;
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 40px;
-  border: 0;
   cursor: pointer;
   background: linear-gradient(90deg, #0066ff, #b3d1ff);
+  border:.05em;
 }
 
 .btn_1:hover,
 .btn_2:hover{
-  font-size: 1.6em;
+  width: 7em;
+  height: 2.2em;
+  font-size: 1.5em;
+  font-weight: bold;
   background: #cce0ff;
   color: #1a75ff;
+  border: 1px solid #1a75ff;
 }
 
 .iframe-container {
