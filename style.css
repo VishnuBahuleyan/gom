@@ -262,7 +262,11 @@ a{
    color: #99c2ff;
 }
 
-.fab:hover,
+.fab:hover{
+  font-size:1.8em;
+  color:#fff;
+}
+
 #contact a:hover,
 a:hover{
   color: #ffffff;
