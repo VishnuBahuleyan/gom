@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Lateef', cursive;
+  font-family: 'Oswald', sans-serif;
 }
 
 #loader_bg,
@@ -46,6 +46,7 @@ body {
 #container {
   background: url('img/bg.jpg') no-repeat;
   position: relative;
+  width: 100%;
 }
 
 .leyar {
@@ -61,7 +62,7 @@ body {
 
 .section-top {
   padding-top: 9em;
-  widows: 100%
+  width: 100%
 }
 
 .section {
@@ -274,6 +275,6 @@ a{
 #contact a:hover,
 a:hover{
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-decoration: none
 }
