@@ -21,7 +21,7 @@ body {
   top: .2em;
 }
 
-.get_videos h6{
+.get_videos h6 {
   font-size: .7em;
   text-align: center;
   font-weight: bold;
@@ -71,6 +71,15 @@ body {
   padding-top: 2em;
   padding-bottom: 4em;
   align-items: center;
+
+}
+
+.footer {
+  background-color: #e6f0ff;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .left-column {
@@ -101,7 +110,8 @@ div h3 {
   font-weight: bold;
 }
 
-.section h1 {
+.section h1,
+.footer h1 {
   font-size: 2em;
   font-weight: bold;
   color: #1a75ff;
@@ -110,23 +120,14 @@ div h3 {
   padding: .5em;
 }
 
-#about h1,
-#contact h1 {
-  color: #cce0ff;
-  font-size: 2em;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  font-family: 'Oswald', sans-serif;
-}
-
 div h4 {
   color: #1a75ff;
   font-family: 'Oswald', sans-serif;
 }
 
-#contact h6 {
-  color: #cce0ff;
+#about p,
+#contact p {
+  color: #1a75ff;
   text-align: center;
   font-size: .8em;
   font-family: 'Oswald', sans-serif;
@@ -134,8 +135,8 @@ div h4 {
 
 .row,
 #row {
-  align-items: center;
   justify-content: center;
+  align-items: center;
   text-align: center;
   display: grid;
   position: relative;
@@ -149,10 +150,12 @@ p {
 }
 
 .fab {
-  color: #99c2ff;
-  font-size: 2em;
+  color: #1a75ff;
+  font-size: 1.5em;
   padding: .1em;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .fas {
@@ -166,7 +169,7 @@ p {
 }
 
 .copyright {
-  color: #cce0ff;
+  color: #1a75ff;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
 }
@@ -187,20 +190,21 @@ p {
   padding: 12px 36px;
   color: #cce0ff;
   text-decoration: none;
-  font-size: 2em;
-  letter-spacing: 2px;
+  font-size: 1em;
+  letter-spacing: 1px;
   border-radius: 40px;
   background: linear-gradient(90deg, #0066ff, #b3d1ff);
   overflow: hidden;
   border: 0;
   outline: none;
+  border: .1px solid #1a75ff;
 }
 
 #btn_1:hover,
 #btn_2:hover {
   background: linear-gradient(90deg, #b3d1ff, #0066ff);
   color: #cce0ff;
-  border: 1px solid #1a75ff;
+  border: .1px solid #1a75ff;
 }
 
 
@@ -265,20 +269,15 @@ p {
 
 #contact a,
 a {
-  font-size: 1.1em;
+  font-size: 1.3em;
   text-decoration: none;
-  color: #99c2ff;
-}
-
-.fab:hover {
-  font-size: 1.8em;
-  color: #fff;
+  color: #1a75ff;
 }
 
 #contact a:hover,
-a:hover {
-  color: #ffffff;
-  font-size: 1.3em;
+a:hover,
+.fab:hover {
+  color: #99c2ff;
   text-decoration: none
 }
 
